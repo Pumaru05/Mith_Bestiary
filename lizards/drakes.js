@@ -101,7 +101,6 @@ class FSubRace {
         idFSubrace2 = fireSubrace2;
         idFSubrace3 = fireSubrace3;
         idFSubrace4 = fireSubrace4;
-        idFSubrace5 = fireSubrace5;
     }
 }
 
