@@ -37,7 +37,7 @@ class race1 {
         name = "Fire Drake";
         element = "Fire";
         habitat = "Fire Biomes";
-        location = "Territories and hot and/or volcanic places"
+        location = "Hot and/or volcanic places and territories"
     }
 }
 
@@ -74,6 +74,22 @@ class race5 {
         element = "Death";
         habitat = "Swampies and Muddies Biomes";
         location = "Abandoned Swamps, Swamps with a lot of Death Aroma, places with a lot of dead and/or Swampy Sludge charged of dead bodies and Dreary sites."
+    }
+}
+
+/*/-----------------------------------------------------------------------------------------------\
+//|                                                                                               |
+//|                                          DRAKE SUBRACES                                       |
+//|                                                                                               |
+//\----------------------------------------------------------------------------------------------*/
+
+class drake_subraces {
+    constructor (idemntsubrace1, idemntsubrace2, idemntsubrace3, idemntsubrace4, idemntsubrace5) {
+        idemntsubrace1 = esubrace1;
+        idemntsubrace2 = esubrace2;
+        idemntsubrace3 = esubrace3;
+        idemntsubrace4 = esubrace4;
+        idemntsubrace5 = esubrace5;
     }
 }
 
