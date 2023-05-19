@@ -59,4 +59,13 @@ class race3 {
     }
 }
 
+class race4 {
+    constructor (name, element, habitat, location) {
+        name = "Terran Dragon";
+        element = "Life";
+        habitat = "Anyone Biome with Life";
+        location = "Places with zones of life, places with much earth or both places";
+    }
+}
+
 export { drake };
