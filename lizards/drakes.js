@@ -130,8 +130,18 @@ class fireSubrace3 {
         name = "Lava Drake";
         race = FDrake.nameRace;
         element = FDrake.element;
-        habitat = "Volcanic biomes, the volcano must be activated";
+        habitat = "Volcanic biomes, but, the volcano must be activated";
         location = "Lives inside the volcanos, eating lava and magma";
+    }
+}
+
+class fireSubrace4 {
+    constructor (name, race, element, habitat, location) {
+        name = "Solar Drake";
+        race = FDrake.nameRace;
+        element = FDrake.element;
+        habitat = "Sunny biomes, especially, where places have the sun constantly emitting light";
+        location = "Lives in zones where the sky is clear and the zones are rich in foods and culture";
     }
 }
 
