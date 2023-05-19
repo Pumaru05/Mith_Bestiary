@@ -34,7 +34,7 @@ class id_race {
 
 class race1 {
     constructor (name, element, habitat, location) {
-        name = "Fire Dragon";
+        name = "Fire Drake";
         element = "Fire";
         habitat = "Fire Biomes";
         location = "Territories and hot and/or volcanic places"
@@ -43,7 +43,7 @@ class race1 {
 
 class race2 {
     constructor (name, element, habitat, location) {
-        name = "Ice Dragon";
+        name = "Ice Drake";
         element = "Ice";
         habitat = "Ice Biomes";
         location = "High and snowy mountains and/or deep and icy caves";
@@ -52,7 +52,7 @@ class race2 {
 
 class race3 {
     constructor (name, element, habitat, location) {
-        name = "Electric Dragon";
+        name = "Electric Drake";
         element = "Electric";
         habitat = "Electric Biomes";
         location = "Electric and stormies skies and/or in the peak of electric or high magnetic zone mountains";
@@ -61,7 +61,7 @@ class race3 {
 
 class race4 {
     constructor (name, element, habitat, location) {
-        name = "Terran Dragon";
+        name = "Terran Drake";
         element = "Life";
         habitat = "Anyone Biome with Life";
         location = "Places with zones of life, places with much earth or both places";
