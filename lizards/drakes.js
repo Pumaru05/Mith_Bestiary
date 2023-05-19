@@ -68,4 +68,13 @@ class race4 {
     }
 }
 
+class race5 {
+    constructor (name, element, habitat, location) {
+        name = "Dark Drake";
+        element = "Death";
+        habitat = "Swampies and Muddies Biomes";
+        location = "Abandoned Swamps, Swamps with a lot of Death Aroma, places with a lot of dead and/or Swampy Sludge charged of dead bodies and Dreary sites."
+    }
+}
+
 export { drake };
