@@ -46,7 +46,16 @@ class race2 {
         name = "Ice Dragon";
         element = "Ice";
         habitat = "Ice Biomes";
-        location = "High and snowy mountains and/or deep and icy caves"
+        location = "High and snowy mountains and/or deep and icy caves";
+    }
+}
+
+class race3 {
+    constructor (name, element, habitat, location) {
+        name = "Electric Dragon";
+        element = "Electric";
+        habitat = "Electric Biomes";
+        location = "Electric and stormies skies and/or in the peak of electric or high magnetic zone mountains";
     }
 }
 
