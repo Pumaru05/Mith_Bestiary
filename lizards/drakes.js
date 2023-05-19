@@ -96,12 +96,12 @@ class drake_subraces {
 }
 
 class FSubRace {
-    constructor (idFSubrace, idsubrace2, idsubrace3, idsubrace4, idsubrace5) {
-        idFSubrace = fireSubrace1;
-        idsubrace2 = idsrace2;
-        idsubrace3 = idsrace3;
-        idsubrace4 = idsrace4;
-        idsubrace5 = idsrace5;
+    constructor (idFSubrace1, idFSubrace2, idFSubrace3, idFSubrace4, idFSubrace5) {
+        idFSubrace1 = fireSubrace1;
+        idFSubrace2 = fireSubrace2;
+        idFSubrace3 = fireSubrace3;
+        idFSubrace4 = fireSubrace4;
+        idFSubrace5 = fireSubrace5;
     }
 }
 
