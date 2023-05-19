@@ -107,10 +107,10 @@ class FSubRace {
 
 class fireSubrace1 {
     constructor (Name, race, element, habitat, location) {
-        Name = "Desertic Drake";
+        Name = "Desert Drake";
         race = FDrake.nameRace;
         element = FDrake.element;
-        habitat = "Dessert biomes, dry and hot temperatures";
+        habitat = "Desert biomes, dry and hot temperatures";
         location = "Habitats lacking water and moisture sources"
     }
 }
