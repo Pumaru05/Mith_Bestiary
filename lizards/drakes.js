@@ -17,14 +17,14 @@ class drake {
 //\----------------------------------------------------------------------------------------------*/
 
 class drake_races {
-    constructor (id_races) {
-        id_races = id_race;
+    constructor (idraces) {
+        idraces = race;
     }
 }
 
-class id_race {
-    constructor (idrace1, idrace2, idrace3, idrace4, idrace5) {
-        idrace1 = race1;
+class race {
+    constructor (idfDrake, idrace2, idrace3, idrace4, idrace5) {
+        idfDrake = FDrake;
         idrace2 = race2;
         idrace3 = race3;
         idrace4 = race4;
@@ -32,13 +32,13 @@ class id_race {
     }
 }
 
-class race1 {
-    constructor (name, element, habitat, location, subrace) {
-        name = "Fire Drake";
+class FDrake {
+    constructor (nameRace, element, habitat, location, subrace) {
+        nameRace = "Fire Drake";
         element = "Fire";
         habitat = "Fire Biomes";
         location = "Hot and/or volcanic places and territories";
-        subrace = esubrace1;
+        subrace = FSubRace;
     }
 }
 
@@ -85,22 +85,33 @@ class race5 {
 //\----------------------------------------------------------------------------------------------*/
 
 class drake_subraces {
-    constructor (idemntsubrace1, idemntsubrace2, idemntsubrace3, idemntsubrace4, idemntsubrace5) {
-        idemntsubrace1 = esubrace1;
+    constructor (idFDrakeSRace, idemntsubrace2, idemntsubrace3, idemntsubrace4, idemntsubrace5) {
+        idFDrakeSRace = FSubRace;
         idemntsubrace2 = esubrace2;
         idemntsubrace3 = esubrace3;
         idemntsubrace4 = esubrace4;
         idemntsubrace5 = esubrace5;
+        idDragonWalker = DragonWalker;
     }
 }
 
-class esubrace1 {
-    constructor (idsubrace1, idsubrace2, idsubrace3, idsubrace4, idsubrace5) {
-        idsubrace1 = idsrace1;
+class FSubRace {
+    constructor (idFSubrace, idsubrace2, idsubrace3, idsubrace4, idsubrace5) {
+        idFSubrace = fireSubrace;
         idsubrace2 = idsrace2;
         idsubrace3 = idsrace3;
         idsubrace4 = idsrace4;
         idsubrace5 = idsrace5;
+    }
+}
+
+class fireSubrace {
+    constructor (Name, race, element, habitat, location) {
+        Name = "Desertic Drake";
+        race = FDrake.nameRace;
+        element = FDrake.element;
+        habitat = "Dessert biomes, dry and hot temperatures";
+        location = "Habitats lacking water and moisture sources"
     }
 }
 
