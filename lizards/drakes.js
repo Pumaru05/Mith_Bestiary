@@ -125,4 +125,14 @@ class fireSubrace2 {
     }
 }
 
+class fireSubrace3 {
+    constructor (name, race, element, habitat, location) {
+        name = "Lava Drake";
+        race = FDrake.nameRace;
+        element = FDrake.element;
+        habitat = "Volcanic biomes, the volcano must be activated";
+        location = "Lives inside the volcanos, eating lava and magma";
+    }
+}
+
 export { drake };
