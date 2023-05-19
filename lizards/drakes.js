@@ -33,11 +33,12 @@ class id_race {
 }
 
 class race1 {
-    constructor (name, element, habitat, location) {
+    constructor (name, element, habitat, location, subrace) {
         name = "Fire Drake";
         element = "Fire";
         habitat = "Fire Biomes";
-        location = "Hot and/or volcanic places and territories"
+        location = "Hot and/or volcanic places and territories";
+        subrace = esubrace1;
     }
 }
 
@@ -90,6 +91,16 @@ class drake_subraces {
         idemntsubrace3 = esubrace3;
         idemntsubrace4 = esubrace4;
         idemntsubrace5 = esubrace5;
+    }
+}
+
+class esubrace1 {
+    constructor (idsubrace1, idsubrace2, idsubrace3, idsubrace4, idsubrace5) {
+        idsubrace1 = idsrace1;
+        idsubrace2 = idsrace2;
+        idsubrace3 = idsrace3;
+        idsubrace4 = idsrace4;
+        idsubrace5 = idsrace5;
     }
 }
 
