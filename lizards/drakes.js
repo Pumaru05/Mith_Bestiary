@@ -97,7 +97,7 @@ class drake_subraces {
 
 class FSubRace {
     constructor (idFSubrace, idsubrace2, idsubrace3, idsubrace4, idsubrace5) {
-        idFSubrace = fireSubrace;
+        idFSubrace = fireSubrace1;
         idsubrace2 = idsrace2;
         idsubrace3 = idsrace3;
         idsubrace4 = idsrace4;
@@ -105,7 +105,7 @@ class FSubRace {
     }
 }
 
-class fireSubrace {
+class fireSubrace1 {
     constructor (Name, race, element, habitat, location) {
         Name = "Desertic Drake";
         race = FDrake.nameRace;
