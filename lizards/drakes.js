@@ -85,9 +85,9 @@ class race5 {
 //\----------------------------------------------------------------------------------------------*/
 
 class drake_subraces {
-    constructor (idFDrakeSRace, idemntsubrace2, idemntsubrace3, idemntsubrace4, idemntsubrace5) {
+    constructor (idFDrakeSRace, idIDrakeSRace, idemntsubrace3, idemntsubrace4, idemntsubrace5) {
         idFDrakeSRace = FSubRace;
-        idemntsubrace2 = esubrace2;
+        idIDrakeSRace = ISubRace;
         idemntsubrace3 = esubrace3;
         idemntsubrace4 = esubrace4;
         idemntsubrace5 = esubrace5;
@@ -141,6 +141,15 @@ class fireSubrace4 {
         element = FDrake.element;
         habitat = "Sunny biomes, especially, where places have the sun constantly emitting light";
         location = "Lives in zones where the sky is clear and the zones are rich in foods and culture";
+    }
+}
+
+class ISubRace {
+    constructor (idISubrace1, idISubrace2, idISubrace3, idISubrace4) {
+        idISubrace1 = iceSubrace1;
+        idISubrace2 = iceSubrace2;
+        idISubrace3 = iceSubrace3;
+        idISubrace4 = iceSubrace4;
     }
 }
 
