@@ -1,4 +1,4 @@
-import { FDrake } from "../../../drakes.js";
+import { FDrake } from "../../../races/fire/fireDrake.js";
 
 class DesDrake {
     constructor (Name, race, element, habitat, location) {
