@@ -1,7 +1,12 @@
+import { lizard } from "../lizard.js";
+import { drake_subraces } from "/subraces/subrace.js";
+import { FSubRace } from "/fireSubraces/fireSubrace.js";
+import { ISubRace } from "/iceSubraces/iceSubrace.js";
+
 class drake {
     constructor (type, races, subraces, weapons, attack, body, personality) {
-        type = "Lizards";
-        races = drake_races;
+        type = lizard;
+        races = race;
         subraces = drake_subraces;
         weapons = drake_weapons;
         attack = drake_attacks;
@@ -10,25 +15,13 @@ class drake {
     }
 }
 
-/*/-----------------------------------------------------------------------------------------------\
-//|                                                                                               |
-//|                                             DRAKE RACES                                       |
-//|                                                                                               |
-//\----------------------------------------------------------------------------------------------*/
-
-class drake_races {
-    constructor (idraces) {
-        idraces = race;
-    }
-}
-
 class race {
-    constructor (idfDrake, idiDrake, idrace3, idrace4, idrace5) {
+    constructor (idfDrake, idiDrake, ideDrake, idtDrake, iddaDrake) {
         idfDrake = FDrake;
         idiDrake = IDrake;
-        idrace3 = race3;
-        idrace4 = race4;
-        idrace5 = race5;
+        ideDrake = EDrake;
+        idtDrake = TDrake;
+        iddaDrake = DaDrake;
     }
 }
 
@@ -43,8 +36,8 @@ class FDrake {
 }
 
 class IDrake {
-    constructor (name, element, habitat, location, subrace) {
-        name = "Ice Drake";
+    constructor (nameRace, element, habitat, location, subrace) {
+        nameRace = "Ice Drake";
         element = "Ice";
         habitat = "Ice Biomes";
         location = "High and snowy mountains and/or deep and icy caves";
@@ -52,147 +45,31 @@ class IDrake {
     }
 }
 
-class race3 {
-    constructor (name, element, habitat, location) {
-        name = "Electric Drake";
+class EDrake {
+    constructor (nameRace, element, habitat, location) {
+        nameRace = "Electric Drake";
         element = "Electric";
         habitat = "Electric Biomes";
         location = "Electric and stormies skies and/or in the peak of electric or high magnetic zone mountains";
     }
 }
 
-class race4 {
-    constructor (name, element, habitat, location) {
-        name = "Terran Drake";
+class TDrake {
+    constructor (nameRace, element, habitat, location) {
+        nameRace = "Terran Drake";
         element = "Life";
         habitat = "Anyone Biome with Life";
         location = "Places with zones of life, places with much earth or both places";
     }
 }
 
-class race5 {
-    constructor (name, element, habitat, location) {
-        name = "Dark Drake";
+class DaDrake {
+    constructor (nameRace, element, habitat, location) {
+        nameRace = "Dark Drake";
         element = "Death";
         habitat = "Swampies and Muddies Biomes";
         location = "Abandoned Swamps, Swamps with a lot of Death Aroma, places with a lot of dead and/or Swampy Sludge charged of dead bodies and Dreary sites."
     }
 }
 
-/*/-----------------------------------------------------------------------------------------------\
-//|                                                                                               |
-//|                                          DRAKE SUBRACES                                       |
-//|                                                                                               |
-//\----------------------------------------------------------------------------------------------*/
-
-class drake_subraces {
-    constructor (idFDrakeSRace, idIDrakeSRace, idemntsubrace3, idemntsubrace4, idemntsubrace5) {
-        idFDrakeSRace = FSubRace;
-        idIDrakeSRace = ISubRace;
-        idemntsubrace3 = esubrace3;
-        idemntsubrace4 = esubrace4;
-        idemntsubrace5 = esubrace5;
-        idDragonWalker = DragonWalker;
-    }
-}
-
-class FSubRace {
-    constructor (idFSubrace1, idFSubrace2, idFSubrace3, idFSubrace4, idFSubrace5) {
-        idFSubrace1 = DesDrake;
-        idFSubrace2 = VolDrake;
-        idFSubrace3 = LavaDrake;
-        idFSubrace4 = SolDrake;
-    }
-}
-
-class DesDrake {
-    constructor (Name, race, element, habitat, location) {
-        Name = "Desert Drake";
-        race = FDrake.nameRace;
-        element = FDrake.element;
-        habitat = "Desert biomes, dry and hot temperatures";
-        location = "Habitats lacking water and moisture sources"
-    }
-}
-
-class VolDrake {
-    constructor (name, race, element, habitat, location) {
-        name = "Volcanic Drake";
-        race = FDrake.nameRace;
-        element = FDrake.element;
-        habitat = "Volcanic biomes and/or ashy and arid terrains"
-        location = "Lives in the slopes of the volcano, especially, where volcanic rocks and ash from ancient eruptions around"
-    }
-}
-
-class LavaDrake {
-    constructor (name, race, element, habitat, location) {
-        name = "Lava Drake";
-        race = FDrake.nameRace;
-        element = FDrake.element;
-        habitat = "Volcanic biomes, but, the volcano must be activated";
-        location = "Lives inside the volcanos, eating lava and magma";
-    }
-}
-
-class SolDrake {
-    constructor (name, race, element, habitat, location) {
-        name = "Solar Drake";
-        race = FDrake.nameRace;
-        element = FDrake.element;
-        habitat = "Sunny biomes, especially, where places have the sun constantly emitting light";
-        location = "Lives in zones where the sky is clear and the zones are rich in foods and culture";
-    }
-}
-
-
-class ISubRace {
-    constructor (idISubrace1, idISubrace2, idISubrace3, idISubrace4) {
-        idISubrace1 = IceMDrake;
-        idISubrace2 = GlacDrake;
-        idISubrace3 = SnowDrake;
-        idISubrace4 = SpecDrake;
-    }
-}
-
-class IceMDrake {
-    constructor (name, race, element, habitat, location) {
-        name = "Ice Mountain Drake";
-        race = IDrake.namerace;
-        element = IDrake.element;
-        habitat = "Ices and snowies biomes, where places have constantly ice and snow";
-        location = "Lives in the snowies mountain's peakes and in the forgotten and deep cold caves";
-    }
-}
-
-class GlacDrake {
-    constructor (name, race, element, habitat, location) {
-        name = "Glaciar Drake";
-        race = IDrake.namerace;
-        element = IDrake.element;
-        habitat = "Artic biomes and biomes with much glaciars.";
-        location = "Lives in artic seas, on the cold glaciars.";
-    }
-}
-
-class SnowDrake {
-    constructor (name, race, element, habitat, location) {
-        name = "Snowy Drake";
-        race = IDrake.namerace;
-        element = IDrake.element;
-        habitat = "Snow biomes.";
-        location = "Lives in plains arounded of Snow and very low temperatures.";
-    }
-}
-
-class SpecDrake {
-    constructor (name, race, element, habitat, location) {
-        name = "Spectral Drake";
-        race = IDrake.namerace;
-        element = IDrake.element;
-        habitat = "Graveyard and deathly biomes.";
-        location = "Lives in graveyards, scare and haunted ambients.";
-    }
-}
-
-export { drake };
+export { drake, FDrake, IDrake, EDrake, TDrake, DaDrake };
