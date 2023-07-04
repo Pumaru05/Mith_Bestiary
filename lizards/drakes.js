@@ -23,9 +23,9 @@ class drake_races {
 }
 
 class race {
-    constructor (idfDrake, idrace2, idrace3, idrace4, idrace5) {
+    constructor (idfDrake, idiDrake, idrace3, idrace4, idrace5) {
         idfDrake = FDrake;
-        idrace2 = race2;
+        idiDrake = IDrake;
         idrace3 = race3;
         idrace4 = race4;
         idrace5 = race5;
@@ -42,12 +42,13 @@ class FDrake {
     }
 }
 
-class race2 {
-    constructor (name, element, habitat, location) {
+class IDrake {
+    constructor (name, element, habitat, location, subrace) {
         name = "Ice Drake";
         element = "Ice";
         habitat = "Ice Biomes";
         location = "High and snowy mountains and/or deep and icy caves";
+        subrace = ISubRace;
     }
 }
 
@@ -144,12 +145,53 @@ class fireSubrace4 {
     }
 }
 
+
 class ISubRace {
     constructor (idISubrace1, idISubrace2, idISubrace3, idISubrace4) {
         idISubrace1 = iceSubrace1;
         idISubrace2 = iceSubrace2;
         idISubrace3 = iceSubrace3;
         idISubrace4 = iceSubrace4;
+    }
+}
+
+class iceSubrace1 {
+    constructor (name, race, element, habitat, location) {
+        name = "Ice Mountain Drake";
+        race = IDrake.namerace;
+        element = IDrake.element;
+        habitat = "Ices and snowies biomes, where places have constantly ice and snow";
+        location = "Lives in the snowies mountain's peakes and in the forgotten and deep cold caves";
+    }
+}
+
+class iceSubrace2 {
+    constructor (name, race, element, habitat, location) {
+        name = "Glaciar Drake";
+        race = IDrake.namerace;
+        element = IDrake.element;
+        habitat = "Artic biomes and biomes with much glaciars.";
+        location = "Lives in artic seas, on the cold glaciars.";
+    }
+}
+
+class iceSubrace3 {
+    constructor (name, race, element, habitat, location) {
+        name = "Snowy Drake";
+        race = IDrake.namerace;
+        element = IDrake.element;
+        habitat = "Snow biomes.";
+        location = "Lives in plains arounded of Snow and very low temperatures.";
+    }
+}
+
+class iceSubrace4 {
+    constructor (name, race, element, habitat, location) {
+        name = "Spectral Drake";
+        race = IDrake.namerace;
+        element = IDrake.element;
+        habitat = "Graveyard and deathly biomes.";
+        location = "Lives in graveyards, scare and haunted ambients.";
     }
 }
 
