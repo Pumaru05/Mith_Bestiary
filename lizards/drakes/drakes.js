@@ -98,14 +98,14 @@ class drake_subraces {
 
 class FSubRace {
     constructor (idFSubrace1, idFSubrace2, idFSubrace3, idFSubrace4, idFSubrace5) {
-        idFSubrace1 = fireSubrace1;
-        idFSubrace2 = fireSubrace2;
-        idFSubrace3 = fireSubrace3;
-        idFSubrace4 = fireSubrace4;
+        idFSubrace1 = DesDrake;
+        idFSubrace2 = VolDrake;
+        idFSubrace3 = LavaDrake;
+        idFSubrace4 = SolDrake;
     }
 }
 
-class fireSubrace1 {
+class DesDrake {
     constructor (Name, race, element, habitat, location) {
         Name = "Desert Drake";
         race = FDrake.nameRace;
@@ -115,7 +115,7 @@ class fireSubrace1 {
     }
 }
 
-class fireSubrace2 {
+class VolDrake {
     constructor (name, race, element, habitat, location) {
         name = "Volcanic Drake";
         race = FDrake.nameRace;
@@ -125,7 +125,7 @@ class fireSubrace2 {
     }
 }
 
-class fireSubrace3 {
+class LavaDrake {
     constructor (name, race, element, habitat, location) {
         name = "Lava Drake";
         race = FDrake.nameRace;
@@ -135,7 +135,7 @@ class fireSubrace3 {
     }
 }
 
-class fireSubrace4 {
+class SolDrake {
     constructor (name, race, element, habitat, location) {
         name = "Solar Drake";
         race = FDrake.nameRace;
@@ -148,14 +148,14 @@ class fireSubrace4 {
 
 class ISubRace {
     constructor (idISubrace1, idISubrace2, idISubrace3, idISubrace4) {
-        idISubrace1 = iceSubrace1;
-        idISubrace2 = iceSubrace2;
-        idISubrace3 = iceSubrace3;
-        idISubrace4 = iceSubrace4;
+        idISubrace1 = IceMDrake;
+        idISubrace2 = GlacDrake;
+        idISubrace3 = SnowDrake;
+        idISubrace4 = SpecDrake;
     }
 }
 
-class iceSubrace1 {
+class IceMDrake {
     constructor (name, race, element, habitat, location) {
         name = "Ice Mountain Drake";
         race = IDrake.namerace;
@@ -165,7 +165,7 @@ class iceSubrace1 {
     }
 }
 
-class iceSubrace2 {
+class GlacDrake {
     constructor (name, race, element, habitat, location) {
         name = "Glaciar Drake";
         race = IDrake.namerace;
@@ -175,7 +175,7 @@ class iceSubrace2 {
     }
 }
 
-class iceSubrace3 {
+class SnowDrake {
     constructor (name, race, element, habitat, location) {
         name = "Snowy Drake";
         race = IDrake.namerace;
@@ -185,7 +185,7 @@ class iceSubrace3 {
     }
 }
 
-class iceSubrace4 {
+class SpecDrake {
     constructor (name, race, element, habitat, location) {
         name = "Spectral Drake";
         race = IDrake.namerace;
