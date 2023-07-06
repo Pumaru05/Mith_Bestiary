@@ -5,17 +5,17 @@ import {mamifer} from "mamifers/mamifer.js";
 
 // Importing JSONs
     // JSON Habits
+    var attacks_types  = "JSONs/habits/attackingTypes/attackingTypes.json";
+    var drinking_types = "JSONs/habits/drinkingTypes/drinkingTypes.json";
+    var eating_types   = "JSONs/habits/eatingTypes/eatingTypes.json";
+    var running_types  = "JSONs/habits/runningTypes/runningTypes.json";
     var sleep_habits   = "JSONs/habits/sleepHabits/sleepingHabits.json";
     var walking_types  = "JSONs/habits/walkingTypes/walkingTypes.json";
-    var eating_types   = "JSONs/habits/eatingTypes/eatingTypes.json";
-    var drinking_types = "JSONs/habits/drinkingTypes/drinkingTypes.json";
-    var running_types  = "JSONs/habits/runningTypes/runningTypes.json";
-    var attacks_types  = "JSONs/habits/attackingTypes/attackingTypes.json";
 
     // JSON Characteristics
-    var weapons_types      = "JSONs/characteristics/weaponTypes/weaponTypes.json";
-    var defenses_types     = "JSONs/characteristics/defensesTypes/defensesTypes.json";
     var addaptations_types = "JSONs/characteristics/addaptationsTypes/addaptationsTypes.json";
+    var defenses_types     = "JSONs/characteristics/defensesTypes/defensesTypes.json";
+    var weapons_types      = "JSONs/characteristics/weaponTypes/weaponTypes.json";
 
 //
 
