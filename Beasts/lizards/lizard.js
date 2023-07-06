@@ -1,4 +1,4 @@
-import {drake} from "/lizards/drakes/drakes.js";
+import {drake} from "drakes/drakes.js";
 
 class lizard {
     constructor (animal) {

@@ -1,7 +1,7 @@
 // Importing Classes
-import {bird} from "birds/bird.js";
-import {lizard} from "lizards/lizard.js";
-import {mamifer} from "mamifers/mamifer.js";
+import {bird} from "Beasts/birds/bird.js";
+import {lizard} from "Beasts/lizards/lizard.js";
+import {mamifer} from "Beasts/mamifers/mamifer.js";
 
 // Importing JSONs
     // JSON Habits

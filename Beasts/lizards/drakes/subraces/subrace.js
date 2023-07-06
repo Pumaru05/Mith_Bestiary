@@ -3,7 +3,7 @@ import { ISubRace } from "/iceSubraces/iceSubrace.js";
 import { ESubRace } from "/electricSubraces/electricSubrace.js";
 import { TSubRace } from "/terranSubraces/terranSubrace.js";
 import { DaSubRace } from "/darkSubraces/darkSubrace.js";
-import { DragonWalker } from "";
+// import { DragonWalker } from "";
 
 class drake_subraces {
     constructor (idFDrakeSRace, idIDrakeSRace, idEDrakeSRace, idTDrakeSRace, idDaDrakeSRace, idDragonWalker) {
@@ -12,8 +12,8 @@ class drake_subraces {
         idEDrakeSRace = ESubRace;
         idTDrakeSRace = TSubRace;
         idDaDrakeSRace = DaSubRace;
-        idDragonWalker = DragonWalker;
+        // idDragonWalker = DragonWalker;
     }
 }
 
-export { drake_subraces }
+export { drake_subraces };
