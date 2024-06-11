@@ -3,14 +3,14 @@ import {drake} from "drakes/drakes.js";
 
 // DECLARE THE CLASSES
 class lizard {
-    constructor (animal) {
-        animal = drakes;
+    constructor (l) {
+        l = drakes;
     }
 }
 
 class drakes {
-    constructor (animal) {
-        animal = drake;
+    constructor (d) {
+        d = drake;
     }
 }
 
