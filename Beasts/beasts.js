@@ -5,7 +5,7 @@
 
 // IMPORT JSONs
     //JSON CHARACTERISTICS
-    import { addaptations_types, defenses_types, weapons_types } from "../JSONs/json.js";
+    import { adaptations_types, defenses_types, weapons_types } from "../JSONs/json.js";
 
     //JSON HABITS
     import { attacks_types, drinking_types, eating_types, running_types, sleep_habits,
@@ -42,10 +42,10 @@ class beast_habits {
 }
 
 class beast_characteristics {
-    constructor (weapons, defenses, addaptations, ) {
+    constructor (weapons, defenses, adaptations, ) {
         weapons      = weapons_types;
         defenses     = defenses_types;
-        addaptations = addaptations_types;
+        adaptations = adaptations_types;
     }
 }
 
