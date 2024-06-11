@@ -31,21 +31,21 @@ class beast_types {
 }
 
 class beast_habits {
-    constructor (sleep, walk, eat, drink, run, attacks) {
+    constructor (sleep, walk, eat, drink, run) {
         sleep = sleep_habits;
         walk = walking_types;
         eat = eating_types;
         drink = drinking_types;
         run = running_types;
-        attacks = attacks_types;
     }
 }
 
 class beast_characteristics {
-    constructor (weapons, defenses, adaptations, ) {
+    constructor (attacks, weapons, defenses, adaptations, ) {
+        attacks      = attacks_types;
         weapons      = weapons_types;
         defenses     = defenses_types;
-        adaptations = adaptations_types;
+        adaptations  = adaptations_types;
     }
 }
 
